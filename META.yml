@@ -1,0 +1,16 @@
+---
+name: Authen-Simple-IMAP
+version: 0.1
+author:
+  - Andre Osti C<andre.osti@locaweb.com.br>
+  - Naylor Garcia C<naylor.garcia@locaweb.com.br>
+abstract: Simple IMAP authentication
+license: perl
+requires:
+  Authen::Simple: 0
+  Mail::IMAPClient: 0
+provides:
+  Authen::Simple::IMAP:
+    file: lib/Authen/Simple/IMAP.pm
+    version: 0.1
+generated_by: Module::Build version 0.2611
